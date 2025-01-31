@@ -400,7 +400,7 @@ body::-webkit-scrollbar-track {
 /* Content Section (About Section) */
 #about {
   opacity: 0; /* Initially hidden */
-  transform: translateY(30px) scale(0.95); /* Start below and slightly smaller */
+  transform: translateY(30px) scale(1); /* Start below and slightly smaller */
   transition: transform 3s ease, opacity 3s ease; /* Smooth transition */
 }
 
